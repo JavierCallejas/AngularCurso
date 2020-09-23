@@ -1,0 +1,19 @@
+{
+  "name": "sasscourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server . -c-1",
+    "sass": "sass .\\scss\\main.scss .\\css\\main.css",
+    "watch": "sass --watch .\\scss\\main.scss .\\css\\main.css",
+    "minify": "sass .\\scss\\main.scss .\\css\\main.css --style=compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "sass": "^1.26.11"
+  }
+}
